@@ -1,0 +1,16 @@
+.DS_Store
+.projectile
+build
+dist
+coverage
+docs/www
+docs/public/dev/styleguidist
+docs/public/dev/components/_data.json
+docs/public/dev/theme/
+node_modules
+/npm-debug.log
+/tmp
+/.vscode
+.idea/
+.tern-port
+
