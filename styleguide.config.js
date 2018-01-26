@@ -22,7 +22,7 @@ module.exports = {
     showUsage: true,
     skipComponentsWithoutExample: false,
     styleguideDir: process.env.ReactStyleguideOutputDir || 'docs/public/latest/styleguidist/',
-    resolver: DocGen.resolver.findAllComponentDefinitions,
+    // resolver: DocGen.resolver.findAllComponentDefinitions, // THIS WAS THE CULPRET
     webpackConfig: {
         module: {
             loaders: [
